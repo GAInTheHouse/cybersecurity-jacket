@@ -1,203 +1,149 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>Cybersecurity Jacket website</title>
-	<style type="text/css">
+	<title>Cybersecurity website</title>
+	<link rel="stylesheet" type="text/css" href="static/css/style.css">
 
-		/* Layout */
-		body {
-			min-width: 630px;
-		}
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 
-		#container {
-			padding-left: 200px;
-			padding-right: 20px;
-		}
-		
-		#container .column {
-			position: relative;
-			float: left;
-		}
-		
-		#center {
-			padding: 10px 20px;
-			width: 100%;
-		}
-		
-		#left {
-			width: 180px;
-			padding: 0 10px;
-			right: 240px;
-			margin-left: -100%;
-		}
-		
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-		#footer {
-			clear: both;
-		}
-		
-		/* IE hack */
-		* html #left {
-			left: 150px;
-		}
-
-		/* Make the columns the same height as each other */
-		#container {
-			overflow: hidden;
-		}
-
-		#container .column {
-			padding-bottom: 1001em;
-			margin-bottom: -1000em;
-		}
-
-		/* Fix for the footer */
-		* html body {
-			overflow: hidden;
-		}
-		
-		* html #footer-wrapper {
-			float: left;
-			position: relative;
-			width: 100%;
-			padding-bottom: 10010px;
-			margin-bottom: -10000px;
-			background: #fff;
-		}
-
-		/* Aesthetics */
-		body {
-			margin: 0;
-			padding: 0;
-			font-family:Sans-serif;
-			line-height: 1.5em;
-		}
-		
-		p {
-			color: #555;
-		}
-
-		nav ul {
-			list-style-type: none;
-			margin: 0;
-			padding: 0;
-		}
-		
-		nav ul a {
-			color: white;
-			text-decoration: none;
-		}
-
-		#header, #footer {
-			font-size: large;
-			padding: 0.3em;
-			background: #A7C7E7;
-		}
-
-		#left {
-			background: #4169E1;
-		}
-
-		#center {
-			background: #fff;
-		}
-
-		#container .column {
-			padding-top: 1em;
-		}
-		
-	</style>
-	
-		
 </head>
-
 <body>
-	<header id="header"><img src="cybersecuritylogo.png"/></header>
+	<!----title section start---->
 
-	<!--<header id="header"><p>Cybersecurity jacket</p></header>-->
-
-	<div id="container">
-
-		<main id="center" class="column">
-			<article>
-			
-				<h1>Guide to our Jacket</h1>
-				<p></p>
-			
-			</article>								
-		</main>
-
-		<nav id="left" class="column">
-			<h3>Data results</h3>
-			<ul>
-				<li><a href="#adminTest">Link 1</a></li>
-				<li><a href="#">Link 2</a></li>
-				<li><a href="#">Link 3</a></li>
-				<li><a href="#">Link 4</a></li>
-				<li><a href="#">Link 5</a></li>
+	<div class="intro">
+		<nav>
+			<h2 class="logo">Cyber<span>security</span></h2>
+			<!--<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About Us</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="#">Skills</a></li>
+				<li><a href="#">Contact Us</a></li>
 			</ul>
-			<h3>Left heading</h3>
-			<ul>
-				<li><a href="#">Link 1</a></li>
-				<li><a href="#">Link 2</a></li>
-				<li><a href="#">Link 3</a></li>
-				<li><a href="#">Link 4</a></li>
-				<li><a href="#">Link 5</a></li>
-			</ul>
-
+			<a href="#" class="btn">Subscribe</a>
+            -->
 		</nav>
 
-        <div id="center" class="column">
-            <article>
-            
-                <h1>Wifi Password Testing</h1>
-                <p></p>
-            
-            </article>
-        </div>
+		<div class="content">
+			<h4>A guide to our</h4>
+			<h1>Cyber<span>security jacket</span></h1>
+			<h3>Including solutions to security breaches.</h3>
+			<div class="newslatter">
+				<!--<form>
+					<input type="email" name="email" id="mail" placeholder="Enter Your Email">
+					<input type="submit" name="submit" value="Lets Start">
+				</form>-->
+			</div>
+		</div>
+	</div>
 
-		<div id="center" class="column">
-			<article>
-			
-				<h1>Virus Testing</h1>
+	<!----About section start---->
+	<section class="about">
+		<div class="main">
+			<img src="static/img/jacket.jpg">
+			<div class="about-text">
+				<h2>Jacket Outputs</h2>
+				<!--<h5>Developer <span>& Designer</span></h5>-->
+				<p>Green: 80-100% secure</p>
+                <p>Yellow: 60-80% secure</p>
+                <p>Red: 0-60% secure</p>
+			</div>
+		</div>
+	</section>
+
+	<!-----tester section start----------->
+	<div class="tester">
+		<div class="title">
+			<h2>Our Testers & Solutions</h2>
+		</div>
+        
+        <div class = "Wifi Password Testing">
+            <h3>Wifi Password Testing</h3>
+            <div class = "green-text">
                 <ol>
-                  <li>Keep up-to-date. Update your system, browser, and important apps regularly, taking advantage of automatic updating when it's available.</li>
-                  <li>Use Antivirus software. Antivirus protection scans your files and your incoming email for viruses, and then deletes anything malicious. You must keep your antivirus software updated to cope with the latest "bugs" circulating the internet.</li>
-                  <li>Antispyware software</li>
-                  <li>Firewalls: A firewall blocks communications to and from sources you don't permit. </li>
-                  <li>Use stronger passwords and authentification: These methods can include using a fingerprint, one-time codes sent to a mobile device, or other features that ensure a user is supposed to have access to the account.</li>
-                </ol>
+                    <h4>High security</h4>
+                    <li>Store more than one copy: Store your data in several places isolated from each other. For example, you might keep one copy of a file on your computer and another on an external drive or in reliable cloud storage. </li>
+                    <li>Secure archive and cryptocontainer passwords: Losing the password for an archive containing important business data means losing that data. Store passwords in a purpose-built application such as our application for creating and securely storing complex passwords. In addition to its password management utility, our security solution for SMBs also features tools for creating cryptocontainers and automating data backup processes.</li>
+              </ol>
+            </div>
+            <div class = "yellow-text">
+                <ol>
+                    <li>Don’t transfer unencrypted data over the Internet: Sometimes you might need to send confidential data online, by e-mail or a file-sharing service. We strongly recommend avoiding it whenever possible, but if you absolutely have to send information, at least encrypt it first, in case of interception. The easiest way is to create a password-protected archive. Almost all archive utilities have this option. After you encrypt the information, send the password to the recipient through a different channel </li>
+                    <li>Delete sensitive data you no longer need: Even information that’s fallen out of use can still cause problems, so get rid of it. For less-sensitive information, at the very least, delete it and then empty your Recycle Bin so the data can’t be restored with a simple click. For anything even vaguely sensitive, use a file-shredder utility to prevent recovery.</li>
+                    <li>Encrypt backups: Backups are crucial, but they can also be a source of leaks. That’s why, before creating backups of confidential data, you should place them in a cryptocontainer.</li>
+              </ol>
+            </div>
+            <div class = "red-text">
+                <ol>
+                    <li>Enable full disk encryption on all devices: On devices where confidential data is stored or transmitted (i.e., most of them), be sure to enable full disk encryption (FDE). Encryption protects the data in case the device falls into the wrong hands.</li>
+                    <li>Restrict confidential data to the office: Another way important data can fall into the wrong hands is through the loss (or theft) of physical media: external hard disks or flash drives. Ideally, they should never leave the office.</li>
+              </ol>
+            </div>
+            
+            <div class = "Virus Testing">
+                <h3>Virus Testing</h3>
+                <div class = "green-text">
+            </div>
                 
-                <a href="https://oag.ca.gov/privacy/facts/online-privacy/protect-your-computer">Visit this website for more information
-                </a>
-			</article>
-		</div>
-		<div id="center" class="column">
-			<article>
-               
-				<h1>Admistrator testing</h1>
-                <ol>
-                    <li>Disable rebooting the computer remotely: By default, some operating systems allow for remote rebooting via services or applications running on other computers.</li>
-                </ol>
-			</article>
-		</div>
-        <div id="center" class="column">
-            <article>
+            <div class = "Access Control Testing">
+                <h3>Access Control Testing</h3>
+                <div class = "green-text">
+            </div>
             
-                <h1>Gautam's div</h1>
-            
-            </article>
         </div>
 
-		
+		<!--<div class="box">
+			<div class="card">
+                <i class="fas fa-bars"></i>
+				<h5>Web Development</h5>
+				<div class="pra">
+					<p>Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
 
+					<p style="text-align: center;">
+						<a class="button" href="#">Read More</a>
+					</p>
+				</div>
+			</div>
+
+			<div class="card">
+				<i class="far fa-user"></i>
+				<h5>Web Development</h5>
+				<div class="pra">
+					<p>Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
+
+					<p style="text-align: center;">
+						<a class="button" href="#">Read More</a>
+					</p>
+				</div>
+			</div>
+
+			<div class="card">
+				<i class="far fa-bell"></i>
+				<h5>Web Development</h5>
+				<div class="pra">
+					<p>Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
+
+					<p style="text-align: center;">
+						<a class="button" href="#">Read More</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div> -->
+
+	<!------Gautam's div------>
+	<div class="raw-data">
+		<p>Here is the raw data</p>
+		<!--<a class="button-two" href="#">Hire Me</a>-->
 	</div>
 
-	<div id="footer-wrapper">
-		<footer id="footer"><p>Footer...</p></footer>
-	</div>
-
+	<!------footer start--------->
+	<footer>
+		<p>CS518 Wearable Tech</p>
+		<p></p>
+	</footer>
 </body>
-
 </html>

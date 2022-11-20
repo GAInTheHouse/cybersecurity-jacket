@@ -1,5 +1,5 @@
 import pandas as pd
-from flask import Flask, request, jsonify, Response
+from flask import Flask, render_template
 import re
 from io import StringIO
 import requests
@@ -12,24 +12,13 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    global page
-    page=0
-    
     with open("index.html") as f:
         html = f.read()
-    return html
+    return render_template('index.html')
 
 
 def main():
-    global username
-    global password
-    try:
-        username=str(sys.argv[1])
-        password=str(sys.argv[2])
-    except:
-        print("Failed to detect username or password.\n")
-        print("Correct usage: python3 main.py USERNAME PASSWORD")
-        sys.exit(0)
+    print('Server begun')
 
 
 ## Make the error more specific
