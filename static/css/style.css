@@ -77,32 +77,6 @@ h4{
 	letter-spacing: 2px;
 	font-size: 20px;
 }
-.newslatter form{
-	width: 380px;
-	max-width: 100%;
-	position: relative;
-}
-.newslatter form input:first-child{
-	display: inline-block;
-	width: 100%;
-	padding: 14px 130px 14px 15px;
-	border: 2px solid #f9004d;
-	outline: none;
-	border-radius: 30px;
-}
-.newslatter form input:last-child{
-	position: absolute;
-	display: inline-block;
-	outline: none;
-	border: none;
-	padding: 10px 30px;
-	border-radius: 30px;
-	background-color:#f9004d;
-	color: white;
-	box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
-	top: 6px;
-	right: 6px; 
-}
 
 .about{
 	width: 100%;
@@ -157,25 +131,28 @@ h4{
 
 .green-text h4{
     color: #A3EBB1;
-    letter-spacing: 1px;
-    line-height: 28px;
-    font-size: 18px;
     margin-bottom: 10px;
     padding-left: 10px;
 }
 
 .yellow-text ol{
-    color: #FFFF8F;
+    color: white;
     letter-spacing: 1px;
     line-height: 28px;
     font-size: 18px;
     margin-bottom: 45px;
     padding-left: 70px;
     padding-right: 50px;
+}
+
+.yellow-text h4{
+    color: #FFFF8F;
+    margin-bottom: 10px;
+    padding-left: 10px;
 }
 
 .red-text ol{
-    color: #DC143C;
+    color: white;
     letter-spacing: 1px;
     line-height: 28px;
     font-size: 18px;
@@ -184,6 +161,11 @@ h4{
     padding-right: 50px;
 }
 
+.red-text h4{
+    color: #DC143C;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
 
 button{
 	background-color:#f9004d;
