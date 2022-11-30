@@ -12,9 +12,9 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    with open("index.html") as f:
-        html = f.read()
-    return render_template('index.html')
+    with open('../sambashare/test.txt') as file:
+        data = file.read()
+    return render_template('index.html', data = data)
 
 
 def main():

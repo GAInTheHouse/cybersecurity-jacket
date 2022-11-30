@@ -1,0 +1,32 @@
+[I 2022-11-30 20:16:11.972 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-11-30 20:16:11.977 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-11-30 20:16:11.985 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-11-30 20:16:12.220 ServerApp] notebook_shim | extension was successfully linked.
+[I 2022-11-30 20:16:12.270 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-11-30 20:16:12.272 LabApp] JupyterLab extension loaded from /home/gainthehouse/.local/lib/python3.8/site-packages/jupyterlab
+[I 2022-11-30 20:16:12.272 LabApp] JupyterLab application directory is /home/gainthehouse/.local/share/jupyter/lab
+[I 2022-11-30 20:16:12.279 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-11-30 20:16:12.290 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-11-30 20:16:12.291 ServerApp] The port 2020 is already in use, trying another port.
+[I 2022-11-30 20:16:12.291 ServerApp] Serving notebooks from local directory: /home/gainthehouse/cybersecurity-jacket
+[I 2022-11-30 20:16:12.291 ServerApp] Jupyter Server 1.23.1 is running at:
+[I 2022-11-30 20:16:12.291 ServerApp] http://wearable-technology:2021/lab
+[I 2022-11-30 20:16:12.292 ServerApp]  or http://127.0.0.1:2021/lab
+[I 2022-11-30 20:16:12.292 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2022-11-30 20:23:57.668 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-11-30 20:23:57.672 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-11-30 20:23:57.680 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-11-30 20:23:57.940 ServerApp] notebook_shim | extension was successfully linked.
+[I 2022-11-30 20:23:57.972 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-11-30 20:23:57.973 LabApp] JupyterLab extension loaded from /home/gainthehouse/.local/lib/python3.8/site-packages/jupyterlab
+[I 2022-11-30 20:23:57.973 LabApp] JupyterLab application directory is /home/gainthehouse/.local/share/jupyter/lab
+[I 2022-11-30 20:23:57.977 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-11-30 20:23:57.983 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-11-30 20:23:57.983 ServerApp] The port 2020 is already in use, trying another port.
+[I 2022-11-30 20:23:57.984 ServerApp] The port 2021 is already in use, trying another port.
+[I 2022-11-30 20:23:57.984 ServerApp] Serving notebooks from local directory: /home/gainthehouse/cybersecurity-jacket
+[I 2022-11-30 20:23:57.984 ServerApp] Jupyter Server 1.23.1 is running at:
+[I 2022-11-30 20:23:57.984 ServerApp] http://wearable-technology:2022/lab
+[I 2022-11-30 20:23:57.984 ServerApp]  or http://127.0.0.1:2022/lab
+[I 2022-11-30 20:23:57.984 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2022-11-30 20:24:59.215 ServerApp] Interrupted...
