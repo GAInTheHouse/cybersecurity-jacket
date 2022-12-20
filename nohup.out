@@ -30,3 +30,34 @@
 [I 2022-11-30 20:23:57.984 ServerApp]  or http://127.0.0.1:2022/lab
 [I 2022-11-30 20:23:57.984 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
 [I 2022-11-30 20:24:59.215 ServerApp] Interrupted...
+[I 2022-12-05 15:40:24.925 ServerApp] 302 GET / (87.236.176.101) 8.54ms
+[I 2022-12-05 15:40:25.147 LabApp] 302 GET /lab? (87.236.176.101) 5.22ms
+[I 2022-12-08 10:15:48.338 ServerApp] 302 GET / (87.236.176.14) 7.04ms
+[I 2022-12-08 10:15:48.557 LabApp] 302 GET /lab? (87.236.176.14) 4.59ms
+[I 2022-12-11 09:28:55.739 ServerApp] 302 GET / (87.236.176.127) 6.44ms
+[I 2022-12-11 09:28:55.960 LabApp] 302 GET /lab? (87.236.176.127) 3.90ms
+[I 2022-12-14 13:29:12.092 ServerApp] 302 GET / (94.102.61.53) 6.37ms
+[I 2022-12-14 13:29:12.196 LabApp] 302 GET /lab? (94.102.61.53) 3.62ms
+[I 2022-12-14 13:30:21.197 ServerApp] 302 GET / (94.102.61.53) 0.52ms
+[I 2022-12-14 13:30:21.302 LabApp] 302 GET /lab (94.102.61.53) 0.61ms
+[I 2022-12-14 18:30:44.155 ServerApp] 302 GET / (87.236.176.238) 5.73ms
+[I 2022-12-14 18:30:44.375 LabApp] 302 GET /lab? (87.236.176.238) 4.04ms
+[I 2022-12-17 10:26:27.894 ServerApp] 302 GET / (87.236.176.204) 7.25ms
+[I 2022-12-17 10:26:28.118 LabApp] 302 GET /lab? (87.236.176.204) 4.61ms
+[I 2022-12-19 06:45:12.069 ServerApp] 302 GET / (162.142.125.212) 6.66ms
+[I 2022-12-19 06:45:12.092 ServerApp] 302 GET / (162.142.125.212) 0.92ms
+[I 2022-12-19 06:45:12.124 ServerApp] Malformed HTTP message from 162.142.125.212: Malformed HTTP version in HTTP Request-Line: 'HTTP/2.0'
+[I 2022-12-19 06:45:12.172 LabApp] 302 GET /lab (162.142.125.212) 4.34ms
+[I 2022-12-19 06:45:12.194 ServerApp] Malformed HTTP message from 162.142.125.212: Malformed HTTP version in HTTP Request-Line: 'HTTP/2.0'
+[I 2022-12-19 06:45:12.251 ServerApp] Malformed HTTP message from 162.142.125.212: Malformed HTTP version in HTTP Request-Line: 'HTTP/2.0'
+[I 2022-12-19 21:31:17.002 ServerApp] 302 GET / (119.61.0.139) 5.80ms
+[I 2022-12-19 21:31:17.215 LabApp] 302 GET /lab? (119.61.0.139) 4.31ms
+[I 2022-12-20 06:07:44.843 ServerApp] 302 GET / (87.236.176.235) 6.70ms
+[I 2022-12-20 06:07:45.071 LabApp] 302 GET /lab? (87.236.176.235) 4.37ms
+[I 2022-12-20 18:43:47.448 ServerApp] 302 GET / (185.142.236.38) 5.70ms
+[I 2022-12-20 18:43:47.665 LabApp] 302 GET /lab (185.142.236.38) 4.26ms
+[I 2022-12-20 20:35:46.344 ServerApp] 302 GET / (162.142.125.9) 0.75ms
+[I 2022-12-20 20:35:46.594 ServerApp] Malformed HTTP message from 162.142.125.9: Malformed HTTP version in HTTP Request-Line: 'HTTP/2.0'
+[I 2022-12-20 20:35:46.759 LabApp] 302 GET /lab (162.142.125.9) 0.94ms
+[I 2022-12-20 20:35:46.804 ServerApp] Malformed HTTP message from 162.142.125.9: Malformed HTTP version in HTTP Request-Line: 'HTTP/2.0'
+[I 2022-12-20 20:35:46.998 ServerApp] Malformed HTTP message from 162.142.125.9: Malformed HTTP version in HTTP Request-Line: 'HTTP/2.0'
