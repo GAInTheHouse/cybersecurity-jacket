@@ -1,13 +1,5 @@
 @ECHO OFF & SETLOCAL EnableDelayedExpansion
-TITLE WinPEAS - Windows local Privilege Escalation Awesome Script
-COLOR 0F
-CALL :SetOnce
 
-REM :: WinPEAS - Windows local Privilege Escalation Awesome Script
-REM :: Code by carlospolop; Re-Write by ThisLimn0
-
-REM Registry scan of other drives besides 
-REM /////true or false
 SET long=false
 
 :Splash
