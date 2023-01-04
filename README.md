@@ -6,7 +6,7 @@ A jacket that shows your security breaches by showing whether it passes our secu
 
 ## Poster
 
-![Project Poster](project_poster.png)
+![Project Poster](project_poster.jpg)
 
 
 ## Materials
